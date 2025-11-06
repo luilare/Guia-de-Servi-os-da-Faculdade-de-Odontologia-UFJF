@@ -1,0 +1,43 @@
+/* Custom styles for Guia de Serviços Odontológicos - UFJF */
+/* Background gradient and base adjustments */
+:root{
+  --bg-top: #1A0033;
+  --bg-bottom: #000000;
+  --accent-purple: #7B3FF2;
+  --accent-yellow: #FFC107;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Cards - alternating title colors */
+.indice a .card-title { color: #7B3FF2; }
+.indice a:nth-child(even) .card-title { color: #FFC107; }
+
+/* Section offset so fixed nav doesn't hide headings */
+section { scroll-margin-top: 96px; }
+
+/* Focus styles for keyboard users */
+.show-focus a:focus, .show-focus button:focus, .show-focus input:focus { outline: 3px solid rgba(123,63,242,0.18); outline-offset: 2px; }
+
+/* Small responsive tweaks */
+@media (min-width: 768px) {
+  .max-w-5xl { max-width: 80rem; }
+}
+
+/* Improve link contrast */
+a { transition: color .15s ease; }
+
+/* Subtle card shadow */
+.card { transition: box-shadow .18s ease, transform .18s ease; }
+
+/* Print friendly small adjustments */
+@media print {
+  nav { display: none; }
+  body { background: white; color: black; }
+  .max-w-5xl { box-shadow: none; border-radius: 0; }
+}
