@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🦷 Guia de Serviços Odontológicos - UFJF</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex items-center justify-center py-10">
+  <!-- Nav -->
+  <nav class="fixed top-0 left-0 right-0 bg-[#1A0033]/90 backdrop-blur-md text-white py-3 z-50">
+    <ul class="flex justify-center gap-6 text-sm font-medium">
+      <li><a href="#pa" class="hover:text-[#FFC107]">P.A.</a></li>
+      <li><a href="#seco" class="hover:text-[#FFC107]">SECO</a></li>
+      <li><a href="#lapcab" class="hover:text-[#FFC107]">LAPCAB</a></li>
+      <li><a href="#tepos" class="hover:text-[#FFC107]">TEPOS</a></li>
+      <li><a href="#soriso" class="hover:text-[#FFC107]">Só-Riso</a></li>
+    </ul>
+  </nav>
+
+  <div class="max-w-5xl w-full mx-auto bg-white rounded-3xl shadow-2xl p-6 md:p-12" style="margin-top:72px;">
+    <!-- LOGOS -->
+    <div class="flex justify-center gap-8 mb-6">
+      <img src="https://placehold.co/128x64/EBF4FF/7B3FF2?text=UFJF" alt="Logo UFJF" class="h-16 rounded-xl shadow" />
+      <img src="https://placehold.co/128x64/EBF4FF/7B3FF2?text=Odonto" alt="Logo Odontologia" class="h-16 rounded-xl shadow" />
+    </div>
+
+    <!-- HEADER -->
+    <header class="text-center mb-10">
+      <h1 class="text-3xl md:text-5xl font-bold text-[#7B3FF2]">🦷 Guia de Serviços Odontológicos</h1>
+      <h2 class="text-lg text-gray-800 mt-2 font-medium">Faculdade de Odontologia UFJF · HU-UFJF</h2>
+      <p class="mt-4 text-gray-700 max-w-2xl mx-auto">
+        Atendimento gratuito e de excelência da Faculdade de Odontologia da UFJF, com foco em acolhimento, humanização e serviços especializados à comunidade.
+      </p>
+    </header>
+
+    <!-- INDICE / CARDS -->
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-[#7B3FF2] mb-5 text-center">📑 Índice de Projetos</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 indice">
+        <!-- Card 1: PA (Roxo) -->
+        <a href="#pa" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#7B3FF2] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">🚨</span>
+          <div>
+            <span class="card-title font-bold">Pronto Atendimento</span>
+            <p class="text-gray-700 text-sm">Urgência odontológica: dor, traumas e emergências</p>
+          </div>
+        </a>
+        <!-- Card 2: SECO (Amarelo) -->
+        <a href="#seco" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#FFC107] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">💀</span>
+          <div>
+            <span class="card-title font-bold">Cirurgia Oral Menor</span>
+            <p class="text-gray-700 text-sm">Cirurgias com anestesia local de média e alta complexidade</p>
+          </div>
+        </a>
+        <!-- Card 3: LAPCAB (Roxo) -->
+        <a href="#lapcab" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#7B3FF2] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">🔬</span>
+          <div>
+            <span class="card-title font-bold">Estomatologia</span>
+            <p class="text-gray-700 text-sm">Diagnóstico precoce de doenças bucais e prevenção ao câncer</p>
+          </div>
+        </a>
+        <!-- Card 4: TEPOS (Amarelo) -->
+        <a href="#tepos" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#FFC107] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">♋</span>
+          <div>
+            <span class="card-title font-bold">Endodontia Oncológica</span>
+            <p class="text-gray-700 text-sm">Tratamento especializado para pacientes oncológicos</p>
+          </div>
+        </a>
+        <!-- Card 5: ADOLESCENTES (Roxo) -->
+        <a href="#adolescentes" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#7B3FF2] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">🧒🏽</span>
+          <div>
+            <span class="card-title font-bold">Clínica dos Adolescentes</span>
+            <p class="text-gray-700 text-sm">Atendimento para jovens de 10 a 20 anos</p>
+          </div>
+        </a>
+        <!-- Card 6: SORISO (Amarelo) -->
+        <a href="#soriso" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#FFC107] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">🚼</span>
+          <div>
+            <span class="card-title font-bold">Projeto Só-Riso</span>
+            <p class="text-gray-700 text-sm">Saúde bucal para gestantes e crianças até 4 anos</p>
+          </div>
+        </a>
+        <!-- Card 7: LESOES (Roxo) -->
+        <a href="#lesoes" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#7B3FF2] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">🦷</span>
+          <div>
+            <span class="card-title font-bold">Lesões Não Cariosas</span>
+            <p class="text-gray-700 text-sm">Diagnóstico e tratamento de desgaste dental</p>
+          </div>
+        </a>
+        <!-- Card 8: PROTESE (Amarelo) -->
+        <a href="#protese" class="card flex items-center p-5 rounded-xl shadow border-l-8 border-[#FFC107] bg-white hover:shadow-lg hover:scale-[1.02] transition-transform duration-200">
+          <span class="text-2xl mr-3">👄</span>
+          <div>
+            <span class="card-title font-bold">Prótese Dentária</span>
+            <p class="text-gray-700 text-sm">Próteses totais, parciais fixas e removíveis</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- === SEÇÃO DE SERVIÇOS DETALHADOS === -->
+    <!-- 1. Pronto Atendimento (P.A.) -->
+    <section id="pa" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#7B3FF2] mb-2 flex items-center gap-3">🚨 Pronto Atendimento (P.A.)</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Serviço de urgência odontológica para dor, restaurações quebradas, traumas dentários e outras emergências.</li>
+        <li><strong>Local:</strong> Faculdade de Odontologia - UFJF, Rua José Lourenço Kelmer, s/n - São Pedro, Juiz de Fora - MG</li>
+        <li><strong>Horários:</strong>
+          <ul class="ml-6 list-disc">
+            <li>Segunda-feira: 14h às 18h (Clínica Amarela)</li>
+            <li>Quarta-feira: 8h às 12h (Clínica Azul)</li>
+            <li>Sexta-feira: 8h às 12h e 14h às 18h (Clínica Amarela)</li>
+          </ul>
+        </li>
+        <li><strong>Contatos:</strong> Triagem: (32) 2102-3873 | Acolhimento: (32) 2102-3855 | Portaria: (32) 2102-3856</li>
+        <li><strong>Como acessar:</strong> Atendimento por ordem de chegada, sem agendamento prévio.</li>
+      </ul>
+      <div class="inline-block bg-[#FFF8E1] text-[#E6A000] border border-[#FFC107] px-3 py-1 rounded mt-1 text-sm font-medium">
+        Atendimento por ordem de chegada. Recomenda-se chegar 30 minutos antes.
+      </div>
+    </section>
+
+    <!-- 2. Serviço de Cirurgia Oral Menor (SECO) -->
+    <section id="seco" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#FFC107] mb-2 flex items-center gap-3">💀 Serviço de Cirurgia Oral Menor (SECO)</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Realiza cirurgias de média e alta complexidade com anestesia local.</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/seco.ufjf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">@seco.ufjf</a></li>
+        <li><strong>Contatos:</strong> Acolhimento: (32) 2102-3855 | Departamento de Clínica Odontológica: (32) 2102-3857</li>
+        <li><strong>Horário:</strong> Conforme agendamento após triagem.</li>
+        <li><strong>Como acessar:</strong> Encaminhamento pelo SUS ou indicação interna da UFJF.</li>
+      </ul>
+    </section>
+
+    <!-- 3. Serviço de Estomatologia (LAPCAB) -->
+    <section id="lapcab" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#7B3FF2] mb-2 flex items-center gap-3">🔬 Serviço de Estomatologia (LAPCAB)</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Liga Acadêmica de Prevenção ao Câncer de Boca. Diagnóstico de doenças benignas e malignas, biópsias e laserterapia.</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/lapcabufjf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">@lapcabufjf</a></li>
+        <li><strong>Contatos:</strong> Coordenação: Prof. Fabricio Tinoco - <a href="mailto:ftadesouz@gmail.com" class="text-blue-600 hover:underline">ftadesouz@gmail.com</a> | Acolhimento: (32) 2102-3855</li>
+        <li><strong>Horário:</strong> Segundas-feiras, das 17h às 19h.</li>
+        <li><strong>Como acessar:</strong> Livre demanda ou encaminhamentos, especialmente grupos de risco.</li>
+      </ul>
+      <div class="inline-block bg-[#f3f0ff] text-[#7B3FF2] border border-[#7B3FF2] px-3 py-1 rounded mt-1 text-sm font-medium">
+        Único serviço estruturado na região de Zona da Mata Mineira.
+      </div>
+    </section>
+
+    <!-- 4. Endodontia para Pacientes Oncológicos (TEPOS) -->
+    <section id="tepos" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#FFC107] mb-2 flex items-center gap-3">♋ Endodontia para Pacientes Oncológicos (TEPOS)</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Tratamento de canal especializado para pacientes oncológicos com lesões orais e doenças sistêmicas.</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/tepos.ufjf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">@tepos.ufjf</a></li>
+        <li><strong>Contatos:</strong> Acolhimento: (32) 2102-3855 | Departamento de Clínica Odontológica: (32) 2102-3857</li>
+        <li><strong>Horário:</strong> Conforme agendamento.</li>
+        <li><strong>Como acessar:</strong> Pacientes em tratamento oncológico ou histórico de câncer.</li>
+      </ul>
+      <div class="inline-block bg-[#FFF8E1] text-[#E6A000] border border-[#FFC107] px-3 py-1 rounded mt-1 text-sm font-medium">
+        Protocolo adaptado para necessidades específicas.
+      </div>
+    </section>
+
+    <!-- 5. Clínica dos Adolescentes -->
+    <section id="adolescentes" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#7B3FF2] mb-2 flex items-center gap-3">🧒🏽 Clínica dos Adolescentes</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Atendimento especializado para jovens de 10 a 20 anos (Ortodontia, Cirurgia, Dentística, DTM).</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/clinicadeadolescentes.ufjf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">@clinicadeadolescentes.ufjf</a></li>
+        <li><strong>Contatos:</strong> Coordenação: Prof. Elton Góis - <a href="mailto:elton.gois@ufjf.br" class="text-blue-600 hover:underline">elton.gois@ufjf.br</a> | Telefone: (32) 2102-3858 | Acolhimento: (32) 2102-3855</li>
+        <li><strong>Horários:</strong>
+          <ul class="ml-6 list-disc">
+            <li>Atendimento telefônico: Segunda a sexta, 13h às 19h</li>
+            <li>Atendimento clínico: Sextas-feiras, 8h às 12h</li>
+          </ul>
+        </li>
+        <li><strong>Como acessar:</strong> Adolescentes encaminhados pelo SUS, HU-UFJF ou parceiros.</li>
+      </ul>
+    </section>
+
+    <!-- 6. Projeto Só-Riso - Materno-Infantil -->
+    <section id="soriso" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#FFC107] mb-2 flex items-center gap-3">🚼 Projeto Só-Riso - Materno-Infantil</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Atendimento odontológico a gestantes e crianças de 0 a 4 anos, com orientação a pais e responsáveis.</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/projetosorisoufjf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">@projetosorisoufjf</a></li>
+        <li><strong>Contatos:</strong> Coordenação: Profa. Cristina Lougon - <a href="mailto:cristina.mattos@ufjf.br" class="text-blue-600 hover:underline">cristina.mattos@ufjf.br</a> | Telefone: (32) 2102-3858 | Acolhimento: (32) 2102-3855</li>
+        <li><strong>Horário:</strong> Conforme agendamento.</li>
+        <li><strong>Como acessar:</strong> Encaminhamento pelo SUS ou moradores dos bairros São Pedro/Dom Bosco.</li>
+      </ul>
+    </section>
+
+    <!-- 7. Projeto de Lesões Não Cariosas -->
+    <section id="lesoes" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#7B3FF2] mb-2 flex items-center gap-3">🦷 Projeto de Lesões Não Cariosas</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Diagnóstico e tratamento de lesões cervicais não cariosas e hipersensibilidade dentinária.</li>
+        <li><strong>Contatos:</strong> Acolhimento: (32) 2102-3855 | Departamento de Odontologia Restauradora: (32) 2102-3859</li>
+        <li><strong>Horário:</strong> Conforme agendamento.</li>
+        <li><strong>Como acessar:</strong> Pacientes com desgaste dental não associado à cárie.</li>
+      </ul>
+      <div class="inline-block bg-gray-100 text-gray-600 border border-gray-300 px-3 py-1 rounded mt-1 text-sm font-medium">
+        Serviço em consolidação - consultar disponibilidade.
+      </div>
+    </section>
+
+    <!-- 8. Projeto de Prótese Dentária -->
+    <section id="protese" class="mb-8 pt-4">
+      <h3 class="text-2xl font-medium text-[#FFC107] mb-2 flex items-center gap-3">👄 Projeto de Prótese Dentária</h3>
+      <ul class="mb-2 text-gray-800 space-y-1">
+        <li><strong>Descrição:</strong> Confecção de próteses dentárias totais, parciais fixas e removíveis para reabilitação oral.</li>
+        <li><strong>Contatos:</strong> Prótese Dentária: (32) 2102-3881 | Acolhimento: (32) 2102-3855</li>
+        <li><strong>Horário:</strong> Conforme agendamento.</li>
+        <li><strong>Como acessar:</strong> Pacientes encaminhados pelo SUS.</li>
+      </ul>
+      <div class="inline-block bg-gray-100 text-gray-600 border border-gray-300 px-3 py-1 rounded mt-1 text-sm font-medium">
+        Serviço em consolidação - consultar tempo de espera.
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="pt-8 mt-8 border-t border-gray-200 text-center text-sm text-gray-800">
+      <div class="flex justify-center gap-6 mb-2">
+        <img src="https://placehold.co/80x40/EBF4FF/7B3FF2?text=UFJF" alt="Logo UFJF" class="h-10 rounded" />
+        <img src="https://placehold.co/80x40/EBF4FF/7B3FF2?text=Odonto" alt="Logo Odonto" class="h-10 rounded" />
+      </div>
+      Lui Lagrota Rezende · Yago Lima de Paula<br/>
+      Profa. Dra. Gisele Fabri<br/>
+      Faculdade de Odontologia · HU-UFJF · Novembro de 2025
+    </footer>
+  </div>
+
+  <!-- Small accessibility helper for keyboard users: focus outlines -->
+  <script>
+    // Ensure focus-visible outline for accessibility
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Tab') document.body.classList.add('show-focus');
+    });
+  </script>
+</body>
+</html>
